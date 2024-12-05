@@ -68,40 +68,40 @@ const closeBurgerAnimation = () => {
     top: "0px",
     rotation: 0,
     duration: 0.1,
-    backgroundColor: "black",
+    backgroundColor: "white",
   });
   gsap.to(spans[1], {
     left: "50%",
     top: "0px",
     rotation: 0,
     duration: 0.1,
-    backgroundColor: "black",
+    backgroundColor: "white",
   });
   gsap.to(spans[2], {
     left: "0px",
     opacity: 1,
     duration: 0.1,
-    backgroundColor: "black",
+    backgroundColor: "white",
   });
   gsap.to(spans[3], {
     left: "50%",
     opacity: 1,
     duration: 0.1,
-    backgroundColor: "black",
+    backgroundColor: "white",
   });
   gsap.to(spans[4], {
     left: "0px",
     top: "36px",
     rotation: 0,
     duration: 0.1,
-    backgroundColor: "black",
+    backgroundColor: "white",
   });
   gsap.to(spans[5], {
     left: "50%",
     top: "36px",
     rotation: 0,
     duration: 0.1,
-    backgroundColor: "black",
+    backgroundColor: "white",
   });
 };
 
@@ -248,16 +248,13 @@ onMounted(() => {
   transition: ease 0.3s;
 }
 
-.burger:hover {
-  transform: scale(1.05);
-}
 
 .burger span {
   display: block;
   position: absolute;
   height: 7px;
   width: 50%;
-  background-color: black;
+  background-color: white;
   opacity: 1;
   border-radius: 0 9px 9px 0;
   transform: rotate(0deg);
