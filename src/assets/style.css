@@ -1,5 +1,13 @@
+* {
+  user-select: none;
+}
+
 .outlined-text {
     color: white;
-    text-shadow: -0.2px -0.2px 0 #000, 0.2px -0.2px 0 #000, -0.2px 0.2px 0 #000,
-      0.2px 0.2px 0 #000;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000,
+      0.5px 0.5px 0 #000;
   }
+
+  html, body {
+    overflow-x: hidden; 
+}

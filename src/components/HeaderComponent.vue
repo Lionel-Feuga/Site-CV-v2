@@ -158,11 +158,7 @@ onMounted(() => {
 <template>
   <v-row align="center" justify="space-between" class="header d-flex">
     <v-col cols="4">
-      <img
-        src="../assets/lfLogo.png"
-        class="logo mt-5 ms-5"
-        alt="Logo Lionel Feuga"
-      />
+      <img src="../assets/lfLogo.png" class="logo mt-5 ms-5" alt="Logo Lionel Feuga" />
     </v-col>
 
     <v-col cols="4" class="d-flex justify-end me-5">
@@ -204,15 +200,15 @@ onMounted(() => {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
   opacity: 0;
 }
 
 .dropdown-item {
   padding: 10px;
   cursor: pointer;
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: white;
   font-weight: 700;
   position: relative;
@@ -244,10 +240,9 @@ onMounted(() => {
   width: 60px;
   height: 45px;
   cursor: pointer;
-  z-index: 1001;
+  z-index: 2;
   transition: ease 0.3s;
 }
-
 
 .burger span {
   display: block;
